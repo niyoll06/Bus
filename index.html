@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tempahan Bas</title>
+	<style>
+		body{background:url('images/bus.jpg') no-repeat center fixed;
+			 background-size:cover;
+		}
+		
+		.header{
+			padding:30px; 
+			text-align:center;
+			color:blanchedalmond;
+			font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			text-shadow:0 0 5px #ff0000,0 0 5px #0000ff; 
+			} 
+		.menu{
+			margin-top:25px;
+			background-color:whitesmoke;
+			opacity: 0.5; 
+			overflow:hidden;
+			
+		}
+		.menu ul{
+			list-style-type:none;
+			margin:auto;
+		}
+		.menu li{
+			float:left;
+			
+			
+		}
+		.menu a{
+			text-decoration:none;
+			display:block;
+			padding:15px;
+			color:black;
+		}
+		.menu li:hover{
+			background-color: antiquewhite;
+		}
+		.menu a:hover{
+			color:black;
+			font-weight: bold;
+			background-color: #0000ff;
+		}
+		.content{
+			background-color: white;
+			width: 80%;
+			margin-left:10% ;
+			text-align:center; 
+			opacity:0.8;
+			border-radius:50px 0 50px 0;
+			padding:10;
+			padding-bottom:10px;
+
+		}
+		.content table{
+			margin:auto;
+			border:solid 2px;
+			margin-bottom: 10px;
+
+		}
+		.content tr,td,th{
+			border:solid 2px;
+		}
+		.footer{
+			text-align:center;
+			padding: 5px;
+			background-color:yellow;
+			color:white;
+			margin-top:10px;
+			opacity:0.6;
+		}
+		.content h4{
+		   padding-top: 20px;
+		}
+		.menu .nama {
+			font-size: 20mm;
+		}
+		.menu .alamat {
+			font-size: 5mm;
+		}
+	
+	</style>
+</head>
+<body >	
+	<!--HEADER-->
+	<div class="header">
+		<div class="nama"><h1>Sinar Transportation</h1></div>
+		<div class="alamat"><font>3481 JALAN SAUJANA, PUTRAJAYA</font></div>
+	</div>
+	<!--MENU-->
+	<div class="menu">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="login.html">Login</a></li>
+		<li><a href="tempahan.html">Tempahan</a></li>
+		<li><a href="tentang.html">Tentang Kami</a></li>
+	</ul>
+	</div>
+	<!--CONTENT-->
+	<div class="content">
+		<h4>INDEX</h4>
+		<br>
+		<form action="" class="form">
+			<input type="text" >
+			<input type="button" value="search">
+			<input type="reset" value="reset">
+		</form>
+		<br>
+		<table>
+			<tr>
+			<th>bil</th>
+			<th>Dari</th>
+			<th>Destinasi</th>
+			<th>Waktu Bertolak</th>
+			<th>Waktu Tiba</th>
+			<th>Kapasiti</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>KL</td>
+				<td>JB</td>
+				<td>08:00</td>
+				<td>11:00</td>
+				<td>35/40</td>
+			</tr>
+				<tr>
+				<td>2</td>
+				<td>JB</td>
+				<td>KL</td>
+				<td>08:00</td>
+				<td>11:00</td>
+				<td>35/40</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>JB</td>
+				<td>MLK</td>
+				<td>08:00</td>
+				<td>11:00</td>
+				<td>35/40</td>
+			</tr>
+				<tr>
+				<td>4</td>
+				<td>KL</td>
+				<td>SRWK</td>
+				<td>08:00</td>
+				<td>11:00</td>
+				<td>35/40</td>
+			</tr>
+				<tr>
+				<td>5</td>
+				<td>JB</td>
+				<td>PHG</td>
+				<td>08:00</td>
+				<td>11:00</td>
+				<td>35/40</td>
+			</tr>
+		</table>
+	</div>
+	<!--FOOTER-->
+	<div class="footer">
+	<marquee><form style="color:black;">Copyright &copy; Syarikat ABC,2021</form></marquee>
+</div>
+</body>
+</html>
